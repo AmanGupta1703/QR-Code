@@ -1,0 +1,85 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(218, 44%, 22%);
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+p a {
+  color: hsl(218, 44%, 22%);
+}
+
+/* Container */
+.container {
+  background-color: hsl(212, 45%, 89%);
+  border-radius: 6px;
+  box-shadow: 4px 2px 50px #000;
+  height: 110vh;
+  width: 196vh;
+  margin: 10% auto;
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-box {
+  background-color: hsl(0, 0%, 100%);
+  width: 360px;
+  height: 520px;
+  border-radius: 20px;
+  box-shadow: 4px 2px 20px black;
+}
+
+.qr-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qr-header img {
+  cursor: pointer;
+  border-radius: 8px;
+  display: block;
+  width: 98%;
+  margin: 2px 4px;
+}
+
+.qr-body p {
+  line-height: 1.5;
+  padding: 4px 10px;
+}
+
+.qr-body-heading {
+  line-height: 1.5;
+  padding: 4px 10px;
+}
+
+.coded-by {
+  font-style: italic;
+  text-shadow: 4px 2px 10px hsl(218, 44%, 22%);
+}
+
+/* Mobile Phone */
+
+@media (max-width: 375px) {
+
+  body {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 300px;
+    height: 50vh;
+    padding: 6%;
+  }
+}
