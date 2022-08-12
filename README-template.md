@@ -43,4 +43,4 @@ I want to focus on concepts such as flexbox, css grid and measurement units.
 
 ## Author
 
-- Website - (https://www.your-site.com)
+- Website - https://amangupta1703.github.io/QR-Code/
